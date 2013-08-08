@@ -1,0 +1,48 @@
+*{margin: 0px;padding: 0px;font-family: ''Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif';font-size: 16px;color: #373737;}
+body {
+	line-height: 1.65;
+}
+ul + h3 { margin-top: 4em;}
+p{margin: 10px 0 15px 0;}
+a{color: #007edf;text-decoration:none;transition:text-shadow 0.5s ease;}
+a:hover {color: #0069ba;text-shadow: #0090ff 0px 0px 2px;}
+.header_wrap{width: 100%;height: 120px;overflow: hidden;background: url(../images/background.png) repeat-x; color: #bebebe;}
+.inner {position: relative;padding: 20px 10px;margin: 0 auto;}
+.inner h1{font-size: 42px;color: #fff;}
+.header_wrap h2{font-size: 16px;margin-top: 10px; color: #bebebe;}
+.inner h2 span{margin-left: 50px;}
+.main_content_wrap{border-top: 1px solid #111;width: 100%;}
+#main_content{padding-top:40px;}
+.main_content_wrap h2{font-size: 22px;color: #222; padding-bottom:5px;border-bottom: 1px dotted #999;margin-bottom: 20px;}
+ul{list-style: none;margin-bottom: 15px;}
+ul li{list-style:none;padding-left: 20px;margin: 10px 0;}
+.screenshots{width: 100%;max-width: 700px;border: 1px solid #ebebeb;box-shadow: 0 0 5px #ebebeb;position: relative;}
+
+.heading {
+	background-color: #23282b;
+	font-size: 42px; color: #FFF;
+	padding: 14px;
+	border-bottom: 1px solid #2f3538;
+}
+
+.nav-menus{
+	overflow: hidden;
+	border-bottom: 1px solid #B7B7B7;
+	width: 100%;
+	z-index: 1;
+	background-color: #1b1e1f;
+}
+.nav-menus-item{
+   	padding: .5em 2em;
+	float: left;
+	text-decoration: none;
+	color: #999;
+}
+.nav-menus-item:hover, .nav-menus-item.active {
+	background-color: rgb(55, 60, 90);
+	color: #FFF;
+}
+
+.royal-theater{
+	padding: 2em;
+}

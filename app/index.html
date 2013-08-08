@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en" ng-app="NL">
+<head>
+	<meta charset="utf-8">
+	<title>Newsletter Guide</title>
+	<link href="css/base.css" rel="stylesheet"/>
+</head>
+<body ng-controller="MainCtrl">
+
+<h1 class="heading">Newsletter Guide</h1>
+
+<nav class="nav-menus">
+	<a ng-repeat="menu in menus" class="nav-menus-item" id="route_{{ menu.ctrl }}" href="#{{ menu.url }}">{{ menu.text }}</a>
+</nav>
+<div ng-view class="royal-theater"></div>
+
+<script src="js/vendor/angular/angular.min.js"></script>
+<script src="js/app.js"></script>
+<script src="js/controllers.js"></script>
+
+</body>
+</html>

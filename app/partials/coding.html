@@ -1,0 +1,71 @@
+<h3>采用&nbsp;table&nbsp;布局，不能用&nbsp;div&nbsp;布局，使用行内样式。</h3>
+<ul>
+	<li>
+		<p>不是公认的：</p>
+		<img src="images/div.png" class="screenshots"/>
+		<p>公认的：</p>
+		<img src="images/table.png" class="screenshots"/>
+	</li>
+</ul>
+<h3>给每一个&nbsp;images&nbsp;有&nbsp;alt&nbsp;标签，在图片是加载失败的时候可以使用文字来代替，这个&nbsp;alt&nbsp;标签在&nbsp;QQ&nbsp;邮箱、&nbsp;outlook2010&nbsp;中不起作用。
+	</h3>
+<ul>
+	<li>
+		<p>没有&nbsp;alt&nbsp;标签的：</p>
+		<img src="images/noalt.png" class="screenshots"/>
+	</li>
+	<li>
+		<p>有&nbsp;alt&nbsp;标签</p>
+		<img src="images/alt.png" class="screenshots"/>
+	</li>
+</ul>
+<h3>不要使用外链的&nbsp;css&nbsp;样式定义文字和图片（外链的&nbsp;css&nbsp;样式在邮件里将不能被读取，将会使邮件内容样式丢失）。</h3>
+<ul>
+	<li>
+		<p>当外链的&nbsp;css&nbsp;样式时：</p>
+		<img src="images/link.png" class="screenshots"/>
+		<img src="images/havelink.png" class="screenshots"/>
+	</li>
+	<li>
+		<p>发送到达对方邮箱时样式丢失</p>
+		<img src="images/showlink.png" class="screenshots"/>
+	</li>
+</ul>
+<h3>不要给&nbsp;images&nbsp;设置宽和高。如果图片加载失败，当前就会存在图片的尺寸，会留下很多不必要的空白。</h3>
+<ul>
+	<li>
+		<p>设置宽和高时：</p>
+		<img src="images/have_width.png" class="screenshots"/>
+	</li>
+	<li>
+		<p>没设置宽和高时：</p>
+		<img src="images/nowidth.png" class="screenshots"/>
+	</li>
+</ul>
+<h3>尽量避免嵌套表格，让代码看起来整洁些。</h3>
+<ul>
+	<li>
+		<p>避免这样：</p>
+		<img src="images/table1.png" class="screenshots"/>
+	</li>
+	<li>
+		<p>应该这样：</p>
+		<img src="images/table2.png" class="screenshots"/>
+	</li>
+</ul>
+<h3>避免在<body>标签中写样式，在&nbsp;QQ、163&nbsp;邮箱中会过滤掉body标签。</h3>
+<ul>
+	<li>
+		<img src="images/body.png" class="screenshots"/>					
+	</li>
+	<li>
+		<p>在&nbsp;foxmail，qq&nbsp;邮箱中显示不出背景颜色，在outlook中能显示。</p>
+		<img src="images/body1.png" class="screenshots"/>
+	</li>
+</ul>
+<h3>避免使用背景图片。在背景上有文字或者图片时候，尽量使用背景是纯色，而不是复杂的图片，&nbsp;outlook2010&nbsp;除了在<span>&nbsp;<</span>body<span>>&nbsp;</span>标签写&nbsp;background-image&nbsp;支持，其他地方都不支持&nbsp;background&nbsp;。</h3>
+<ul>
+	<li>
+		<img src="images/do_bg.png" class="screenshots"/>					
+	</li>
+</ul>
